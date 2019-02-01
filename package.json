@@ -1,0 +1,27 @@
+{
+  "name": "fedeg",
+  "version": "1.0.0",
+  "description": "Front-end Development Environment Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damyo/FEDEG.git"
+  },
+  "keywords": [
+    "front-end",
+    "setting"
+  ],
+  "author": "burningBeans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damyo/FEDEG/issues"
+  },
+  "homepage": "https://github.com/damyo/FEDEG#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
