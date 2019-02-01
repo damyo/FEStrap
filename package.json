@@ -33,5 +33,6 @@
   },
   "bin": {
     "fedeg": "index.js"
-  }
+  },
+  "preferGlobal": true
 }
