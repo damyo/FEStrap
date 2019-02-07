@@ -1,6 +1,6 @@
 {
-  "name": "fedeg",
-  "version": "1.0.6",
+  "name": "festrap",
+  "version": "1.0.0",
   "description": "Front-end Development Environment Generator",
   "main": "index.js",
   "scripts": {
@@ -27,12 +27,14 @@
     "url": "https://github.com/damyo/FEDEG/issues"
   },
   "homepage": "https://github.com/damyo/FEDEG#readme",
+  "bin": {
+    "festrap": "index.js"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0"
-  },
-  "bin": {
-    "fedeg": "index.js"
-  },
-  "preferGlobal": true
+    "exec-sh": "^0.3.2",
+    "gulp": "^4.0.0",
+    "make-dir": "^1.3.0",
+    "prompts": "^2.0.1"
+  }
 }
